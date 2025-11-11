@@ -1,0 +1,77 @@
+/*
+ * style.css
+ * Gaya untuk Halaman Seblak
+ */
+
+/* --- Gaya Dasar & Layout --- */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Latar belakang halaman */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto; /* Memberi jarak atas/bawah */
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih menonjol */
+}
+
+/* --- Gaya Tipografi & Warna --- */
+
+h1 {
+    color: #c9302c; /* Orange menyala, khas pedas */
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f0ad4e; /* Garis bawah warna oranye */
+    margin-bottom: 25px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #5cb85c; /* Kuning segar untuk subjudul */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* --- Gaya Daftar Bahan --- */
+
+.bahan-list {
+    list-style-type: none; /* Menghilangkan bullet default */
+    padding: 0;
+    margin-top: 15px;
+}
+
+.bahan-list li {
+    background: #fff8e1; /* Latar belakang biru muda */
+    border-left: 5px solid #ffcc33; /* Garis merah di kiri */
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.bahan-list li:hover {
+    background: #ffe082; /* Perubahan warna saat di-hover */
+}
+
+/* --- Gaya untuk Garis Pemisah (HR) --- */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(201, 48, 44, 0.75), rgba(0, 0, 0, 0));
+    margin: 30px 0;
+} 
